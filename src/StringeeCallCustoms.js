@@ -8,7 +8,6 @@ const RNStringeeCall = NativeModules.RNStringeeCall;
 
 export default class {
     constructor(props) {
-        super(props);
         this._events = [];
         this._subscriptions = [];
         this._eventEmitter = new NativeEventEmitter(RNStringeeCall);
